@@ -1,6 +1,6 @@
 """
 Code / Password Filter v2.1
-Laboratorium Elektroniki | laboratorium-elektroniki.pl
+Laboratorium Elektroniki | laboratoriumelektroniki.pl
 Author: Krystian Zarzecki
 """
 import tkinter as tk
@@ -330,7 +330,7 @@ class CodeFilter:
         self._w["status_lbl"].pack(pady=(0,4))
 
         # footer
-        tk.Label(P, text="Laboratorium Elektroniki  |  CodeFilter v2.1  |  laboratorium-elektroniki.pl",
+        tk.Label(P, text="Laboratorium Elektroniki  |  CodeFilter v2.1  |  laboratoriumelektroniki.pl",
                  font=("Segoe UI",7), bg=BG, fg=TX2).pack(pady=4)
 
     def _tstr(self, key):
